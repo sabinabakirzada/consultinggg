@@ -1,0 +1,28 @@
+#header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+  .container {
+    nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 33px 300px;
+      align-items: center;
+      h1 {
+        padding-left: 60px;
+      }
+      ul {
+        a {
+          padding: 0px 19px;
+          font-size: 17px;
+          color: #0d2d3e;
+          font-weight: 400;
+        }
+        a.active {
+          color: red;
+        }
+      }
+    }
+  }
+}
